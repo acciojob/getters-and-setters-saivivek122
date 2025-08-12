@@ -22,7 +22,7 @@ class Student extends Person {
 		super(name)
 	}
 	study(){
-		return this.name+"is studying"
+		return this.name+" is studying"
 	}
 }
 
@@ -32,7 +32,7 @@ class Teacher extends Person {
 	}
 
 	teach(){
-		return this.name+"is teaching"
+		return this.name+" is teaching"
 	}
 }
 // Creating a Person instance
